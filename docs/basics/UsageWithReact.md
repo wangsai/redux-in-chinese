@@ -26,33 +26,33 @@ Redux 的 React 绑定库是基于 [容器组件和展示组件相分离](https:
     <thead>
         <tr>
             <th></th>
-            <th scope="col" style="text-align:left">展示组件</th>
-            <th scope="col" style="text-align:left">容器组件</th>
+            <th scope="col">展示组件</th>
+            <th scope="col">容器组件</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-          <th scope="row" style="text-align:right">作用</th>
+          <th scope="row">作用</th>
           <td>描述如何展现（骨架、样式）</td>
           <td>描述如何运行（数据获取、状态更新）</td>
         </tr>
         <tr>
-          <th scope="row" style="text-align:right">直接使用 Redux</th>
+          <th scope="row">直接使用 Redux</th>
           <td>否</td>
           <td>是</td>
         </tr>
         <tr>
-          <th scope="row" style="text-align:right">数据来源</th>
+          <th scope="row">数据来源</th>
           <td>props</td>
           <td>监听 Redux state</td>
         </tr>
         <tr>
-          <th scope="row" style="text-align:right">数据修改</th>
+          <th scope="row">数据修改</th>
           <td>从 props 调用回调函数</td>
           <td>向 Redux 派发 actions</td>
         </tr>
         <tr>
-          <th scope="row" style="text-align:right">调用方式</th>
+          <th scope="row">调用方式</th>
           <td>手动</td>
           <td>通常由 React Redux 生成</td>
         </tr>

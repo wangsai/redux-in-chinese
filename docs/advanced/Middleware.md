@@ -16,7 +16,7 @@
 
 试想一下，当我们的应用中每一个 action 被发起以及每次新的 state 被计算完成时都将它们记录下来，岂不是很好？当程序出现问题时，我们可以通过查阅日志找出是哪个 action 导致了 state 不正确。
 
-<img src='http://i.imgur.com/BjGBlES.png' width='70%'>
+<img src='http://i.imgur.com/BjGBlES.png' width='70%'/>
 
 我们如何通过 Redux 实现它呢？
 

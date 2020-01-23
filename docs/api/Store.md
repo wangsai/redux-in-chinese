@@ -28,7 +28,7 @@ Store 不是类。它只是有几个方法的对象。
 
 _(any)_: 应用当前的 state 树。
 
-<hr>
+<hr/>
 
 ### <a id='dispatch'></a>[`dispatch(action)`](#dispatch)
 
@@ -77,7 +77,7 @@ store.dispatch(addTodo('Read the docs'))
 store.dispatch(addTodo('Read about the middleware'))
 ```
 
-<hr>
+<hr/>
 
 ### <a id='subscribe'></a>[`subscribe(listener)`](#subscribe)
 
@@ -127,7 +127,7 @@ const unsubscribe = store.subscribe(handleChange)
 unsubscribe()
 ```
 
-<hr>
+<hr/>
 
 ### <a id='replaceReducer'></a>[`replaceReducer(nextReducer)`](#replaceReducer)
 

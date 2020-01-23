@@ -59,7 +59,7 @@ unsubscribe()
 
 可以看到 store 里的 state 是如何变化的：
 
-<img src='http://i.imgur.com/zMMtoMz.png' width='70%'>
+<img src='http://i.imgur.com/zMMtoMz.png' width='70%'/>
 
 可以看到，在还没有开发界面的时候，我们就可以定义程序的行为。而且这时候已经可以写 reducer 和 action 创建函数的测试。不需要模拟任何东西，因为它们都是[纯函数](../introduction/ThreePrinciples.md#使用纯函数来执行修改)。只需调用一下，对返回值做断言，写测试就是这么简单。
 

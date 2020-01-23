@@ -38,8 +38,8 @@ Redux 的 React 绑定库是基于 [容器组件和展示组件相分离](https:
         </tr>
         <tr>
           <th scope="row" style="text-align:right">直接使用 Redux</th>
-          <td>否</th>
-          <td>是</th>
+          <td>否</td>
+          <td>是</td>
         </tr>
         <tr>
           <th scope="row" style="text-align:right">数据来源</th>
